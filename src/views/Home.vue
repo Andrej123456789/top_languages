@@ -1,15 +1,30 @@
 <template>
-  <div class="about">
-    <h1>chart</h1>
+  <div class="chart-div">
+    <PieChart />
   </div>
 </template>
 
+<script lang="ts">
+import PieChart from '../components/PieChart.vue';
+
+export default {
+  name: 'App',
+  components: { PieChart }
+}
+</script>
+
 <style>
 @media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
+  .chart-div {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
+}
+
+.chart-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
