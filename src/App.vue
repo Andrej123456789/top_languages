@@ -9,11 +9,6 @@ import HelloWorld from './components/Description.vue'
 
     <div class="wrapper">
       <HelloWorld msg="Top languages chart per repo!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
     </div>
   </header>
 
