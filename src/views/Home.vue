@@ -19,12 +19,13 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    height: 500px;
   }
-}
 
-.chart-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .chart-div {
+    width: 500px;
+    height: 500px;
+  }
 }
 </style>
